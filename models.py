@@ -26,3 +26,7 @@ class Events(Base):
     max_attendees = Column(Integer, nullable=False)
     status = Column(String(500), nullable=False)
     attendees = relationship("Attendees", back_populates="event") 
+
+
+
+#Some random message to check whether the changes are reflecting in the github or not while pushing changes
